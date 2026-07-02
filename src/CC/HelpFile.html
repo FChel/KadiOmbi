@@ -1,0 +1,150 @@
+<html>
+<title>Isidore CAPS Help</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <style>
+  body {
+      position: relative; 
+  }
+  #section1 {padding-top:50px;padding-left:50px;height:400px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;padding-left:50px;height:400px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;padding-left:50px;height:600px;color: #fff; background-color: #ff9800;}
+  #section4 {padding-top:50px;padding-left:50px;height:400px;color: #fff; background-color: #00bcd4;}
+  #section5 {padding-top:50px;padding-left:50px;height:400px;color: #fff; background-color: #009688;}
+  
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="HelpFile.html">Defence Credit Card Application System (CAPS) Help</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Logging In</a></li>
+          <li><a href="#section2">Adding New Users</a></li>
+          <li><a href="#section3">Applying For A Card</a></li>
+		  <li><a href="#section4">Searching for an Employee</a></li>
+          <li><a href="#section5">Admin - Load CS From Diners</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+<!-- Section 1 -->
+<div id="section1">
+  <h1>Logging In</h1>
+  <p>Before Logging in to CAPS an Employee needs to be a User in the system.</p>
+
+<p>To become a User in CAPS the Employee must be loaded in the CDMC import file.</p>
+
+<p>To <a href="#" Header="Login Screen" data-toggle="popover" data-trigger="hover" data-content="Login Screen" style="color:white;">Login,</a> enter the EmployeeID (and User Type, if User Type drop-down list is visible) and enter the password "a". Then click Login.  </p>
+
+<p>This will all be automated when set-up on a network with windows authentication, based on the User Network ID.</p>
+
+<p>On successful login the user will arrive at their home screen.  This will differ depending on the type of user they are.</p>
+
+</div>
+
+<!-- Section 2 -->
+<div id="section2">
+  <h1>Adding New Users</h1>
+  <p>All users are added via the CDMC load (Administration --> Load CDMC Data) automatically.  </p>
+  <p>The Username is the EmployeeID field and the password is always "a" for all users.</p>
+  <p>When the application is set-up on a network the user will automatically be logged in using windows authentication.</p>
+  
+  To load the CDMC File:
+	<ul>
+          <li>1. Go to the CDMC Load screen</li>
+		  <li>2. Click in the "CDMC Template Excel" button.  This will open an Excel workbook with the field names in the first row</li>
+		  <li>3. Fill in the relevant fields and save the Excel workbook as an ".xls" file ONLY</li>
+		  <li>4. Make sure the worksheet is named "CDMCData" only</li>
+		  <li>5. Click on the "Browse.." button and select the file saved in step 4. above</li>
+		  <li>6. Click on the "Upload" button</li>
+	</ul>
+	<p>Data loaded can then be viewed in the CDMC screen.</p>
+
+</div>
+
+
+<!-- Section 3 -->
+<div id="section3">
+  <h1>Applying for a Card</h1>
+  <p>To Apply for a Credit Card:</p>
+
+	<ul>
+          <li>1. Go to the Home text in the left-hand side menu</li>
+		  <li>2. Click on the "Apply For A Card" button next to the type of card</li>
+		  <li>3. The Application screen will open where details can be reviewed</li>
+		  <li>4. All contact details can only be changed via the CDMC file</li>
+		  <li>5. Click on the "Submit Application" button which will open a new window to confirm details and display user specific details</li>
+		  <li>6. Click on the "Submit" button</li>
+	</ul>
+	<p>The application will then appear in the Applications screens and on the home page of the user with the status "Submitted".</p>
+	<p>Credit Card Application Approval Process:</p>
+
+	<ul>
+          <li>1. Employee Submits their Credit Card Application (status = "Submitted")</li>
+		  <li>2. GCFO receives application which must be Approved or Rejected (Status = "GCFO Approved" or "Rejected")</li>
+		  <li>3. DCC receives application which must be Approved or Rejected (Status = "Added to CS" or "Rejected by DCC")</li>
+		  <li>4. Application is added to CS file to be sent to Diners</li>
+		  <li>5. Application is loaded in CS From Diners file</li>
+		  <li>6. Application is given a card number and a new Card appears under "My Cards" on the Home screen and in Card screens</li>
+	</ul>
+
+</div>
+
+
+<!-- Section 4 -->
+<div id="section4">
+  <h1>Searching for an Employee</h1>
+  <p>To search for an Employee or card:</p>
+	<ul>
+          <li>1. Enter any part of the First Name, Last Name or EmployeeID in the "Search for.." text field in the top menu bar and press the enter key</li>
+		  <li>2. Click on the "Employee History" text in the left-hand-side menu and search for the Employee</li>
+		 
+	</ul>
+	<p>Card and application screen can be filtered and searched.</p>
+
+</div>
+
+<!-- Section 5 -->
+<div id="section5">
+  <h1>Admin - Load CS From Diners</h1>
+  <p>All Cards are created via the CS From Diners file load</p>
+ 
+  <p>To load the CS From Diners File:</p>
+	<ul>
+          <li>1. Export the existing CS To Diners file, by going to the CS To Diners screen and clicking "Export Batch" which will open an Excel workbook with the existing Applications</li>
+		  <li>2. Go to the CS From Diners screen (Administration --> CS From Diners)</li>
+		  <li>2. Click in the "CS From Diner Template Excel" button.  This will open an Excel workbook with the field names in the first row</li>
+		  <li>3. Copy and paste the CS To Diners detail to the relevant fields and fill in the rest of the fields</li>
+		  <li>4. Save the Excel workbook as an ".xls" file ONLY</li>
+		  <li>5. Make sure the worksheet is named "CSFromDinersFile" only</li>
+		  <li>6. Click on the "Browse.." button and select the file saved in step 5. above</li>
+		  <li>7. Click on the "Upload" button</li>
+	</ul>
+	<p>Card can then be viewed under "My Cards" on the Home screen and in Card screens</p>
+
+</div>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+});
+
+</script>
+</body>
+</html>
