@@ -1,0 +1,83 @@
+<script language="VBScript" runat="Server">     
+
+Sub Application_OnStart     
+
+	Application("users") = 0     
+	Application("GeneralUsers") = 0
+	Application("ManagerUsers") = 0
+	Application("ReadOnlyUsers") = 0
+	Application("ComplianceUsers") = 0
+	Application("AdminUsers") = 0
+	Application("SuperAdminUsers") = 0
+	Application("IsidoreAdminUsers") = 0
+	
+	'Application("NamedUsers") = ""   
+
+End Sub
+
+Sub Session_OnStart     
+
+	'Session.Timeout = 5 ' minutes     
+
+	'Session("name") = ""     
+
+	Application.Lock
+	Application("users") = Application("users") + 1     
+	'Application("NamedUsers") = Application("NamedUsers") & "," & Session("UserID")
+	Application.Unlock
+
+End Sub
+
+Sub Session_OnEnd     
+
+	Application.Lock     
+
+	Application("users") = Application("users") - 1     
+
+	If Len(Session("UserTypeID")) > 0 Then     
+
+		If Session("UserTypeID") = 1 Then
+			Application("GeneralUsers") = Application("GeneralUsers") - 1
+		End If 
+		If Session("UserTypeID") = 2 Then
+			Application("ManagerUsers") = Application("ManagerUsers") - 1
+		End If 
+		If Session("UserTypeID") = 3 Then
+			Application("ReadOnlyUsers") = Application("ReadOnlyUsers") - 1
+		End If 
+		If Session("UserTypeID") = 4 Then
+			Application("ComplianceUsers") = Application("ComplianceUsers") - 1
+		End If
+		If Session("UserTypeID") = 10 Then
+			Application("AdminUsers") = Application("AdminUsers") - 1
+		End If 
+		If Session("UserTypeID") = 11 Then
+			Application("SuperAdminUsers") = Application("SuperAdminUsers") - 1
+		End If 
+		If Session("UserTypeID") = 99 Then
+			Application("IsidoreAdminUsers") = Application("IsidoreAdminUsers") - 1
+		End If   
+
+	End If     
+	
+	'Temporarily removed to check for errors
+	'Application("NamedUsers") = Replace("," & Session("UserID"), "," & Application("NamedUsers"))
+	
+	Application.Unlock     
+
+End Sub     
+
+Sub Application_OnEnd()
+    Application("users") = 0     
+	Application("GeneralUsers") = 0
+	Application("ManagerUsers") = 0
+	Application("ReadOnlyUsers") = 0
+	Application("ComplianceUsers") = 0
+	Application("AdminUsers") = 0
+	Application("SuperAdminUsers") = 0
+	Application("IsidoreAdminUsers") = 0
+	'Temporarily removed to check for errors
+	'Application("NamedUsers") = ""
+End Sub
+
+</script>

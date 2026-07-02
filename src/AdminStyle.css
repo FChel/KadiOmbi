@@ -1,0 +1,64 @@
+
+
+a:link, a:active, a:visited 
+{
+	color:blue;
+	font-size:11px;
+	font-family:Arial;
+	text-decoration:none;	
+}
+
+a:hover 
+{
+	color:RED;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+.table_dataEntry
+{		
+	border-color:#E9E9E9;		
+	WIDTH:100%;	
+}
+
+.custom_table_td_tab
+{
+	BORDER-RIGHT: 1pt;
+    BORDER-TOP: 1pt;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: 1pt;
+    BORDER-BOTTOM: 1pt;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: Left;
+    PADDING: 1pt		
+}
+.custom_table
+{
+	width:100%;	
+	border:1px;
+	padding:1px;		
+	background-color:White;
+}
+.custom_td
+{
+	border-style:solid;	
+	border-width:1px;	
+    FONT-FAMILY: Arial;
+    font-size:8pt;
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: Left;    
+    border-color:#E9E9E9;	
+    padding:1px;             
+    
+}
+.custom_th
+{
+	border-style:None;			
+    FONT-FAMILY: Arial;
+    font-size:8pt;
+    font-weight:bold;
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: Left;        
+    padding:1px;        
+}

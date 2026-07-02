@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>MyFi - CAPS Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/myfi-bootstrap.css" />
+    <link rel="stylesheet" href="introjs/introjs.min.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="myfi-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 my-auto">
+              <div class="logo-lockup">
+                <img
+                  src="images/defence_logo_light.png"
+                  alt="Department of Defence"
+                  class="defence-logo"
+                />
+                <div class="app-info">
+                  <div class="app-title">CAPS</div>
+                  <div class="app-description d-none d-md-inline">
+                    Credit Card Process System
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 my-auto text-right">
+              <form
+                class="header-search d-none d-lg-inline-block"
+                data-intro="Use global search to search through all available data."
+              >
+                <input
+                  class="form-control field-search"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </form>
+              <div class="header-actions">
+                <a class="action-link" href="" data-intro="Back to MyFi Portal"
+                  ><i class="fa fa-home"></i
+                ></a>
+                <button
+                  data-intro="Help facilities"
+                  class="action-link dropdown-toggle no-indicator"
+                  id="helpDropdown"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <i class="fa fa-question-circle"></i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="helpDropdown">
+                  <a
+                    class="dropdown-item"
+                    onClick="triggerWalkthrough()"
+                    href="#"
+                    >On-screen walkthrough</a
+                  >
+                  <a class="dropdown-item" href="#">Help documentation</a>
+                </div>
+                <a
+                  class="action-link"
+                  href="#"
+                  data-container="body"
+                  data-toggle="popover"
+                  data-placement="bottom"
+                  data-content="Vivamus
+              sagittis lacus vel augue laoreet rutrum faucibus."
+                >
+                  <i class="fa fa-bell"></i
+                ></a>
+                <a
+                  class="action-link"
+                  href="#"
+                  data-container="body"
+                  data-toggle="popover"
+                  data-placement="bottom"
+                  data-content="Vivamus
+                sagittis lacus vel augue laoreet rutrum faucibus."
+                >
+                  <i class="fa fa-comment"></i
+                ></a>
+                <button
+                  data-intro="User details and settings"
+                  class="action-link dropdown-toggle"
+                  id="userDropdown"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <i class="fa fa-user"></i
+                  ><span class="action-username d-none d-md-inline-block"
+                    >Jacob Peterson</span
+                  >
+                </button>
+                <div class="dropdown-menu" aria-labelledby="userDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="myfi-nav-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <nav
+                class="navbar navbar-expand-lg navbar-light"
+                data-intro="Main navigation"
+              >
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="menu-text">Menu</span>
+                  <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#"
+                        >Dashboard <span class="sr-only">(current)</span></a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">My Cards</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">My Applications</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main py-5">
+      <div class="container">
+        <div class="row mb-2">
+          <div class="col-md-10">
+            <h4 class="text-left">Settings</h4>
+          </div>
+          <div class="col-md-2 text-right"></div>
+        </div>
+
+        <div class="row mb-2">
+          <div class="col-12">
+            <ul class="nav nav-tabs" id="myFiTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" href="#">System Parameters</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="#">Automated Emails</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="#">Settings Change Log</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="row information-row">
+                    <div class="col-sm-3">
+                    </div>
+                    <div class="col-sm-3">
+                        <h6>Parameter value</h6>
+                    </div>
+                    <div class="col-md-2">                        
+                        <h6>Active</h6>
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        <h6>Updated By</h6>
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        <h6>Date Updated</h6>
+                    </div>
+                </div>
+                <div class="row information-row">
+                    <div class="col-sm-3">
+                        <h6>Remove Countdown On</h6>
+                        <span class="description">This is the parameter description</span>
+                    </div>
+                    <div class="col-sm-3 my-auto">
+                        <input type="text" class="form-control" placeholder="Parameter value">
+                    </div>
+                    <div class="col-md-2 my-auto">                        
+                        <select class="form-control">
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        Jacob Peterson
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        31/10/2020
+                    </div>
+                </div>
+                <div class="row information-row">
+                    <div class="col-sm-3">
+                        <h6>Remove Countdown On</h6>
+                        <span class="description">This is the parameter description</span>
+                    </div>
+                    <div class="col-sm-3 my-auto">
+                        <input type="text" class="form-control" placeholder="Parameter value">
+                    </div>
+                    <div class="col-md-2 my-auto">                        
+                        <select class="form-control">
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        Jacob Peterson
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        31/10/2020
+                    </div>
+                </div>
+                <div class="row information-row">
+                    <div class="col-sm-3">
+                        <h6>Remove Countdown On</h6>
+                        <span class="description">This is the parameter description</span>
+                    </div>
+                    <div class="col-sm-3 my-auto">
+                        <input type="text" class="form-control" placeholder="Parameter value">
+                    </div>
+                    <div class="col-md-2 my-auto">                        
+                        <select class="form-control">
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        Jacob Peterson
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        31/10/2020
+                    </div>
+                </div>
+                <div class="row information-row">
+                    <div class="col-sm-3">
+                        <h6>Remove Countdown On</h6>
+                        <span class="description">This is the parameter description</span>
+                    </div>
+                    <div class="col-sm-3 my-auto">
+                        <input type="text" class="form-control" placeholder="Parameter value">
+                    </div>
+                    <div class="col-md-2 my-auto">                        
+                        <select class="form-control">
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        Jacob Peterson
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        31/10/2020
+                    </div>
+                </div>
+                <div class="row information-row">
+                    <div class="col-sm-3">
+                        <h6>Remove Countdown On</h6>
+                        <span class="description">This is the parameter description</span>
+                    </div>
+                    <div class="col-sm-3 my-auto">
+                        <input type="text" class="form-control" placeholder="Parameter value">
+                    </div>
+                    <div class="col-md-2 my-auto">                        
+                        <select class="form-control">
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        Jacob Peterson
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        31/10/2020
+                    </div>
+                </div>
+                <div class="row information-row">
+                    <div class="col-sm-3">
+                        <h6>Remove Countdown On</h6>
+                        <span class="description">This is the parameter description</span>
+                    </div>
+                    <div class="col-sm-3 my-auto">
+                        <input type="text" class="form-control" placeholder="Parameter value">
+                    </div>
+                    <div class="col-md-2 my-auto">                        
+                        <select class="form-control">
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        Jacob Peterson
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        31/10/2020
+                    </div>
+                </div>
+                <div class="row information-row">
+                    <div class="col-sm-3">
+                        <h6>Remove Countdown On</h6>
+                        <span class="description">This is the parameter description</span>
+                    </div>
+                    <div class="col-sm-3 my-auto">
+                        <input type="text" class="form-control" placeholder="Parameter value">
+                    </div>
+                    <div class="col-md-2 my-auto">                        
+                        <select class="form-control">
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        Jacob Peterson
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        31/10/2020
+                    </div>
+                </div>
+                <div class="row information-row">
+                    <div class="col-sm-3">
+                        <h6>Remove Countdown On</h6>
+                        <span class="description">This is the parameter description</span>
+                    </div>
+                    <div class="col-sm-3 my-auto">
+                        <input type="text" class="form-control" placeholder="Parameter value">
+                    </div>
+                    <div class="col-md-2 my-auto">                        
+                        <select class="form-control">
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        Jacob Peterson
+                    </div>
+                    <div class="col-md-2 my-auto">
+                        31/10/2020
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12 text-right">
+            <button class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer myfi-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img
+              src="images/defence_logo_dark.png"
+              class="defence-logo"
+              alt="Department of Defence"
+            />
+            <a class="btn btn-primary btn-myfi" href="#"
+              ><i class="fa fa-home"></i> Back to MyFi Portal</a
+            >
+          </div>
+          <div class="col-md-3">
+            <h4 class="footer-title">Shortcuts</h4>
+            <ul class="footer-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Dashboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Applications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cards</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reporting</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My details</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4 class="footer-title">Getting started</h4>
+            <ul class="footer-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Frequently Asked Questions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">How to Guide</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4 class="footer-title">Help</h4>
+            <ul class="footer-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Frequently Asked Questions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">How to Guide</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <span class="copyright"
+              >© Department of Defence - Defence Finance Group 2020</span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="introjs/introjs.min.js"></script>
+    <script>
+      // Start the tour
+      function triggerWalkthrough() {
+        introJs().start();
+      }
+
+      jQuery(function ($) {
+        $('[data-toggle="tooltip"]').tooltip();
+        $('[data-toggle="popover"]').popover();
+      });
+    </script>
+  </body>
+</html>

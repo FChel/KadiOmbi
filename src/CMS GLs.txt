@@ -1,0 +1,578 @@
+G/L Account	Company Code	Chart of Accounts	Tax Category	Language Key	Short Text	G/L Acct Long Text	Hierarchy Level	ID	Text	IDoc number	Message Text
+102302	2000	DCOA		EN	Receipts - other	Receipts - other	0	0		0	
+102303	3000	DCOA	+	EN	Trust Receipts-other	Trust Receipts - other	0	0		0	
+102303	5100	DCOA	+	EN	Trust Receipts-other	Trust Receipts - other	0	0		0	
+102475	2000	DCOA		EN	StateTaxEquivPayment	State tax equivalent payment	0	0		0	
+102500	2000	DCOA		EN	Interest  - Loan DHA	Interest  - Loan DHA	0	0		0	
+120000	1000	DCOA		EN	Forex gain a/c	Foreign exchange gain	0	0		0	
+120000	2000	DCOA		EN	Forex gain a/c	Foreign exchange gain	0	0		0	
+120000	3000	DCOA		EN	Forex gain a/c	Foreign exchange gain	0	0		0	
+120000	5000	DCOA		EN	Forex gain a/c	Foreign exchange gain	0	0		0	
+120000	5100	DCOA		EN	Forex gain a/c	Foreign exchange gain	0	0		0	
+121008	1000	DCOA	-	EN	Disposal fees - land	Disposal fees - land	0	0		0	
+121008	5000	DCOA	-	EN	Disposal fees - land	Disposal fees - land	0	0		0	
+121009	1000	DCOA	-	EN	Disp'l fees - builds	Disposal fees - buildings	0	0		0	
+121009	5000	DCOA	-	EN	Disp'l fees - builds	Disposal fees - buildings	0	0		0	
+121103	1000	DCOA	-	EN	Disposal fees - SME	Disposal fees - SME	0	0		0	
+121103	5000	DCOA	-	EN	Disposal fees - SME	Disposal fees - SME	0	0		0	
+121200	1000	DCOA	-	EN	CstAstDisp-Infr	Cost of asset disposal - Infrastructure	0	0		0	
+121200	5000	DCOA	-	EN	CstAstDisp-Infr	Cost of asset disposal - Infrastructure	0	0		0	
+121300	1000	DCOA	-	EN	Disposal fees - OP&E	Disposal fees - OP&E	0	0		0	
+121300	5000	DCOA	-	EN	Disposal fees - OP&E	Disposal fees - OP&E	0	0		0	
+121304	1000	DCOA	-	EN	Loss Lease Disposal	Net loss on lease disposal	0	0		0	
+121304	5000	DCOA	-	EN	Loss Lease Disposal	Net loss on lease disposal	0	0		0	
+121500	1000	DCOA	-	EN	D'pl fees-oth intang	Disposal fees - other intangibles	0	0		0	
+121500	5000	DCOA	-	EN	D'pl fees-oth intang	Disposal fees - other intangibles	0	0		0	
+190100	2000	DCOA		EN	DFRDB contributions	DFRDB contributions	0	0		0	
+190101	2000	DCOA		EN	MSBS contributions	MSBS contributions	0	0		0	
+190200	2000	DCOA		EN	Dividends	Dividends	0	0		0	
+190500	2000	DCOA	+	EN	Admin License fees	Admin License fees	0	0		0	
+200000	1000	DCOA	-	EN	Wages & salaries-APS	Wages & salaries-APS	0	0		0	
+200000	5000	DCOA	-	EN	Wages & salaries-APS	Wages & salaries-APS	0	0		0	
+200300	1000	DCOA		EN	FBT-APS	FBT-APS	0	0		0	
+200300	5000	DCOA		EN	FBT-APS	FBT-APS	0	0		0	
+200500	1000	DCOA	-	EN	Medical expenses-APS	Medical expenses-APS	0	0		0	
+200500	5000	DCOA	-	EN	Medical expenses-APS	Medical expenses-APS	0	0		0	
+200501	1000	DCOA	-	EN	APS Health - other	APS health - Other health service fees	0	0		0	
+200501	5000	DCOA	-	EN	APS Health - other	APS health - Other health service fees	0	0		0	
+200600	1000	DCOA	-	EN	Course fees-APS	Course fees-APS	0	0		0	
+200600	5000	DCOA	-	EN	Course fees-APS	Course fees-APS	0	0		0	
+200602	1000	DCOA	-	EN	TravelAPS-MemReunion	Travel APS - Member reunion	0	0		0	
+200602	5000	DCOA	-	EN	TravelAPS-MemReunion	Travel APS - Member reunion	0	0		0	
+200603	1000	DCOA		EN	Cap offset-Civi	Civilian capitalisation offset	0	0		0	
+200603	5000	DCOA		EN	Cap offset-Civi	Civilian capitalisation offset	0	0		0	
+200604	1000	DCOA	-	EN	TravelAPS-RLL:ATO	Travel APS - Remote locality leave: ATO defined	0	0		0	
+200604	5000	DCOA	-	EN	TravelAPS-RLL:ATO	Travel APS - Remote locality leave: ATO defined	0	0		0	
+200605	1000	DCOA	-	EN	Stud Reunion Trav Ot	Travel APS - Student reunion (other)	0	0		0	
+200605	5000	DCOA	-	EN	Stud Reunion Trav Ot	Travel APS - Student reunion (other)	0	0		0	
+200606	1000	DCOA	-	EN	Dep's Reunion Trav	Travel APS - Dependants reunion	0	0		0	
+200606	5000	DCOA	-	EN	Dep's Reunion Trav	Travel APS - Dependants reunion	0	0		0	
+200607	1000	DCOA	-	EN	APS WF over progras	APS Workforce Over Programming	0	0		0	
+200702	1000	DCOA	-	EN	TravelAPS-RLL:Family	Travel APS - Remote Local leave:Family visitingRPL	0	0		0	
+200702	5000	DCOA	-	EN	TravelAPS-RLL:Family	Travel APS - Remote Local leave:Family visitingRPL	0	0		0	
+201150	1000	DCOA		EN	ADF Super Contrib	ADF Super Employer Contributions	0	0		0	
+201150	5000	DCOA		EN	ADF Super Contrib	ADF Super Employer Contributions	0	0		0	
+201200	1000	DCOA	-	EN	Operating leases-ADF	Operating leases - ADF	0	0		0	
+201200	5000	DCOA	-	EN	Operating leases-ADF	Operating leases - ADF	0	0		0	
+201201	1000	DCOA	-	EN	Rep & maint-ADF	Repairs & maintenance-ADF	0	0		0	
+201201	5000	DCOA	-	EN	Rep & maint-ADF	Repairs & maintenance-ADF	0	0		0	
+201400	1000	DCOA		EN	FBT - ADF	FBT - ADF	0	0		0	
+201400	5000	DCOA		EN	FBT - ADF	FBT - ADF	0	0		0	
+201500	1000	DCOA	*	EN	Overseas allow-ADF	Overseas allowances - ADF	0	0		0	
+201500	5000	DCOA	*	EN	Overseas allow-ADF	Overseas allowances - ADF	0	0		0	
+201502	1000	DCOA		EN	Oth OS allow-FBT-ADF	Other overseas allowances - FBT - ADF	0	0		0	
+201502	5000	DCOA		EN	Oth OS allow-FBT-ADF	Other overseas allowances - FBT - ADF	0	0		0	
+201700	1000	DCOA	*	EN	Allowances - ADF	Allowances - ADF	0	0		0	
+201700	5000	DCOA	*	EN	Allowances - ADF	Allowances - ADF	0	0		0	
+201701	1000	DCOA	*	EN	Other allowances ADF	Other allowances - ADF	0	0		0	
+201701	5000	DCOA	*	EN	Other allowances ADF	Other allowances - ADF	0	0		0	
+201702	1000	DCOA	*	EN	Xtra Tuitn Allw-ADF	Extra tuition allowance - ADF	0	0		0	
+201702	5000	DCOA	*	EN	Xtra Tuitn Allw-ADF	Extra tuition allowance - ADF	0	0		0	
+201800	1000	DCOA	-	EN	Medical expenses-ADF	Medical expenses-ADF	0	0		0	
+201800	5000	DCOA	-	EN	Medical expenses-ADF	Medical expenses-ADF	0	0		0	
+201801	1000	DCOA	-	EN	ADFHlth- osea	ADF health - Overseas posts	0	0		0	
+201801	5000	DCOA	-	EN	ADFHlth- osea	ADF health - Overseas posts	0	0		0	
+201901	1000	DCOA	-	EN	Medical expenses-ADF	Medical expenses - ADF	0	0		0	
+201901	5000	DCOA	-	EN	Medical expenses-ADF	Medical expenses - ADF	0	0		0	
+201902	1000	DCOA	-	EN	Funerals - ADF	Funerals - ADF	0	0		0	
+201902	5000	DCOA	-	EN	Funerals - ADF	Funerals - ADF	0	0		0	
+201905	1000	DCOA	-	EN	Travel - ADF	Travel - ADF	0	0		0	
+201905	5000	DCOA	-	EN	Travel - ADF	Travel - ADF	0	0		0	
+201906	1000	DCOA	-	EN	Leave Trav rec Mil	Travel ADF - Recreation leave	0	0		0	
+201906	5000	DCOA	-	EN	Leave Trav rec Mil	Travel ADF - Recreation leave	0	0		0	
+201907	1000	DCOA	-	EN	Rec lve Trav ATO Mil	Travel ADF - Recreation leave (ATO remote)	0	0		0	
+201907	5000	DCOA	-	EN	Rec lve Trav ATO Mil	Travel ADF - Recreation leave (ATO remote)	0	0		0	
+201908	1000	DCOA	-	EN	TravelADF-reunion	Travel ADF - Reunion	0	0		0	
+201908	5000	DCOA	-	EN	TravelADF-reunion	Travel ADF - Reunion	0	0		0	
+201909	1000	DCOA	-	EN	Stud Reun Trv YR9-12	Travel ADF - Student reunion (yrs 9-12)	0	0		0	
+201909	5000	DCOA	-	EN	Stud Reun Trv YR9-12	Travel ADF - Student reunion (yrs 9-12)	0	0		0	
+201910	1000	DCOA	-	EN	Stud Reunion Oth Mil	Travel ADF - Student reunion (other)	0	0		0	
+201910	5000	DCOA	-	EN	Stud Reunion Oth Mil	Travel ADF - Student reunion (other)	0	0		0	
+201911	1000	DCOA	-	EN	Dep Reunion Trv Mil	Travel ADF - Dependents reunion	0	0		0	
+201911	5000	DCOA	-	EN	Dep Reunion Trv Mil	Travel ADF - Dependents reunion	0	0		0	
+201912	1000	DCOA	-	EN	Remote Local leave	Travel ADF - Remote locality leave	0	0		0	
+201912	5000	DCOA	-	EN	Remote Local leave	Travel ADF - Remote locality leave	0	0		0	
+201913	1000	DCOA	-	EN	RLLT-Fam or ext Fam	Travel ADF - Remote locality leave: Family	0	0		0	
+201913	5000	DCOA	-	EN	RLLT-Fam or ext Fam	Travel ADF - Remote locality leave: Family	0	0		0	
+201914	1000	DCOA	-	EN	Rem Loc Trav non Mil	Travel ADF - Remote local leave: Non-ATO defined	0	0		0	
+201914	5000	DCOA	-	EN	Rem Loc Trav non Mil	Travel ADF - Remote local leave: Non-ATO defined	0	0		0	
+201915	1000	DCOA	-	EN	RLT - Mem non Mil	Travel ADF - Remote local leave family:Non - ATO	0	0		0	
+201915	5000	DCOA	-	EN	RLT - Mem non Mil	Travel ADF - Remote local leave family:Non - ATO	0	0		0	
+201916	1000	DCOA	-	EN	TravelADF-medical	ADF Travel Conditions of Service - Medical	0	0		0	
+201916	5000	DCOA	-	EN	TravelADF-medical	ADF Travel Conditions of Service - Medical	0	0		0	
+201918	1000	DCOA	-	EN	Compass Travel Mil	ADF Travel Conditions of Service - Compassionate	0	0		0	
+201918	5000	DCOA	-	EN	Compass Travel Mil	ADF Travel Conditions of Service - Compassionate	0	0		0	
+201919	1000	DCOA	-	EN	T&S-Oth Cond Mil	Travel ADF - Other conditions of service	0	0		0	
+201919	5000	DCOA	-	EN	T&S-Oth Cond Mil	Travel ADF - Other conditions of service	0	0		0	
+201920	1000	DCOA	-	EN	Leave Trv oth Mil	Travel ADF - Other leave	0	0		0	
+201920	5000	DCOA	-	EN	Leave Trv oth Mil	Travel ADF - Other leave	0	0		0	
+201922	1000	DCOA	-	EN	ADF WF over program	ADF Workforce Over Programming	0	0		0	
+202000	2000	DCOA		EN	Super interest-MSBS	Superannuation interest - MSBS	0	0		0	
+202001	2000	DCOA		EN	Super interst-ADFCvr	Superannuation interest - ADF Cover	0	0		0	
+202002	2000	DCOA		EN	Super interst -DFRDB	Superannuation interest - DFRDB	0	0		0	
+202003	2000	DCOA		EN	Super interest-DFRB	Superannuation interest - DFRB	0	0		0	
+202100	2000	DCOA		EN	Super mem accr-MSBS	Superannuation member accruals - MSBS	0	0		0	
+202101	2000	DCOA		EN	Super mem acc-ADFCvr	Superannuation member accruals - ADF Cover	0	0		0	
+202102	2000	DCOA		EN	Super mem accr-DFRDB	Superannuation member accruals - DFRDB	0	0		0	
+202200	2000	DCOA	-	EN	Retention bonus	Retention bonus	0	0		0	
+210003	1000	DCOA		EN	Inv Consumption	Inventory consumption	0	0		0	
+210003	5000	DCOA		EN	Inv Consumption	Inventory consumption	0	0		0	
+210100	1000	DCOA	-	EN	Purchminor asst&cons	Purchases - minor assets & consumables	0	0		0	
+210100	5000	DCOA	-	EN	Purchminor asst&cons	Purchases - minor assets & consumables	0	0		0	
+210102	1000	DCOA	-	EN	Furniture&Fittings	Furniture and Fittings	0	0		0	
+210102	5000	DCOA	-	EN	Furniture&Fittings	Furniture and Fittings	0	0		0	
+210200	1000	DCOA	-	EN	"Print, publica&media"	"Printing, publications & media"	0	0		0	
+210200	5000	DCOA	-	EN	"Print, publica&media"	"Printing, publications & media"	0	0		0	
+210201	1000	DCOA	-	EN	consu str non SDSS	Direct pur & use of consumable stores non SDSS	0	0		0	
+210201	5000	DCOA	-	EN	consu str non SDSS	Direct pur & use of consumable stores non SDSS	0	0		0	
+210202	1000	DCOA	-	EN	Stationery	Stationery	0	0		0	
+210202	5000	DCOA	-	EN	Stationery	Stationery	0	0		0	
+210203	1000	DCOA	-	EN	Prizes & awards	Prizes & awards	0	0		0	
+210203	5000	DCOA	-	EN	Prizes & awards	Prizes & awards	0	0		0	
+210204	1000	DCOA	-	EN	Official gifts	Official gifts	0	0		0	
+210204	5000	DCOA	-	EN	Official gifts	Official gifts	0	0		0	
+210205	1000	DCOA	-	EN	Promotional goods	Promotional goods	0	0		0	
+210205	5000	DCOA	-	EN	Promotional goods	Promotional goods	0	0		0	
+210206	1000	DCOA	-	EN	non SES opr costs	Leased vehicle non SES operating costs	0	0		0	
+210206	5000	DCOA	-	EN	non SES opr costs	Leased vehicle non SES operating costs	0	0		0	
+210207	1000	DCOA	-	EN	DCP act - Mater	DCP activities - Mater	0	0		0	
+210207	5000	DCOA	-	EN	DCP act - Mater	DCP activities - Mater	0	0		0	
+210208	1000	DCOA	-	EN	Certif/Lice/Officdoc	Certificate/licences & oth official documentation	0	0		0	
+210208	5000	DCOA	-	EN	Certif/Lice/Officdoc	Certificate/licences & oth official documentation	0	0		0	
+210209	1000	DCOA	-	EN	DCP act - Stipend	DCP activities - Stipend	0	0		0	
+210209	5000	DCOA	-	EN	DCP act - Stipend	DCP activities - Stipend	0	0		0	
+210210	1000	DCOA	-	EN	VehOpCosts-DefOwned	Vehicle oper costs - Defence owned	0	0		0	
+210210	5000	DCOA	-	EN	VehOpCosts-DefOwned	Vehicle oper costs - Defence owned	0	0		0	
+210211	1000	DCOA	-	EN	Spt to OPS & EX-Good	Spt to OPS & EX - Goods - HQJOC only	0	0		0	
+210211	5000	DCOA	-	EN	Spt to OPS & EX-Good	Spt to OPS & EX - Goods - HQJOC only	0	0		0	
+210212	1000	DCOA	-	EN	LsdVehSESOpCost	Leased vehicle SES operating costs	0	0		0	
+210212	5000	DCOA	-	EN	LsdVehSESOpCost	Leased vehicle SES operating costs	0	0		0	
+210214	1000	DCOA	-	EN	DCP trav - non APS/A	DCP travel - non APS/ADF	0	0		0	
+210214	5000	DCOA	-	EN	DCP trav - non APS/A	DCP travel - non APS/ADF	0	0		0	
+210215	1000	DCOA	-	EN	Purchases - OP&E	Purchases - OP&E	0	0		0	
+210215	5000	DCOA	-	EN	Purchases - OP&E	Purchases - OP&E	0	0		0	
+210216	1000	DCOA	-	EN	Software Other	Software Other	0	0		0	
+210216	5000	DCOA	-	EN	Software Other	Software Other	0	0		0	
+210218	1000	DCOA	-	EN	Purchases - SME	Purchases - SME	0	0		0	
+210218	5000	DCOA	-	EN	Purchases - SME	Purchases - SME	0	0		0	
+210219	1000	DCOA	-	EN	OP&EdCASG4Def <ths	OP&E purchases by CASG for Defence below threshold	0	0		0	
+210219	5000	DCOA	-	EN	OP&EdCASG4Def <ths	OP&E purchases by CASG for Defence below threshold	0	0		0	
+210220	1000	DCOA	-	EN	Purch-other intang	Purchases - other intangibles	0	0		0	
+210220	5000	DCOA	-	EN	Purch-other intang	Purchases - other intangibles	0	0		0	
+210221	1000	DCOA		EN	Mat price diff	Material price Differences	0	0		0	
+210221	5000	DCOA		EN	Mat price diff	Material price Differences	0	0		0	
+210222	1000	DCOA	-	EN	Inv consump-GSI	Inventory consumption - GSI	0	0		0	
+210222	5000	DCOA	-	EN	Inv consump-GSI	Inventory consumption - GSI	0	0		0	
+210223	1000	DCOA	-	EN	Purchases - fuel	Purchases - fuel	0	0		0	
+210223	5000	DCOA	-	EN	Purchases - fuel	Purchases - fuel	0	0		0	
+210224	1000	DCOA	-	EN	Excise duty	Excise duty	0	0		0	
+210224	5000	DCOA	-	EN	Excise duty	Excise duty	0	0		0	
+210225	1000	DCOA	-	EN	Purchases - GSI	Purchases - GSI	0	0		0	
+210225	5000	DCOA	-	EN	Purchases - GSI	Purchases - GSI	0	0		0	
+210300	1000	DCOA	-	EN	Lic fees & permits	Licence fees & permits	0	0		0	
+210300	5000	DCOA	-	EN	Lic fees & permits	Licence fees & permits	0	0		0	
+210400	1000	DCOA	-	EN	Gas	Gas	0	0		0	
+210400	5000	DCOA	-	EN	Gas	Gas	0	0		0	
+210401	1000	DCOA	-	EN	Light and power	Light and power	0	0		0	
+210401	5000	DCOA	-	EN	Light and power	Light and power	0	0		0	
+210402	1000	DCOA	-	EN	Water	Water	0	0		0	
+210402	5000	DCOA	-	EN	Water	Water	0	0		0	
+210403	1000	DCOA	-	EN	Liq Petroleum Prod	Liquid petroleum products	0	0		0	
+210403	5000	DCOA	-	EN	Liq Petroleum Prod	Liquid petroleum products	0	0		0	
+211000	1000	DCOA	-	EN	Engineering change	Engineering change	0	0		0	
+211000	5000	DCOA	-	EN	Engineering change	Engineering change	0	0		0	
+211001	1000	DCOA	-	EN	Repairs&maintenance	Repairs & maintenance	0	0		0	
+211001	5000	DCOA	-	EN	Repairs&maintenance	Repairs & maintenance	0	0		0	
+211004	1000	DCOA	-	EN	Certification	Certification	0	0		0	
+211004	5000	DCOA	-	EN	Certification	Certification	0	0		0	
+211005	1000	DCOA	-	EN	R&M-Mat Support Cont	R&M - Material Support Contracts	0	0		0	
+211005	5000	DCOA	-	EN	R&M-Mat Support Cont	R&M - Material Support Contracts	0	0		0	
+211006	1000	DCOA	-	EN	R&M-Tech Services	R&M - Technical Services	0	0		0	
+211006	2000	DCOA	-	EN	R&M-Tech Services	R&M - Technical Services	0	0		0	
+211006	3000	DCOA	-	EN	R&M-Tech Services	R&M - Technical Services	0	0		0	
+211006	5000	DCOA	-	EN	R&M-Tech Services	R&M - Technical Services	0	0		0	
+211006	5100	DCOA	-	EN	R&M-Tech Services	R&M - Technical Services	0	0		0	
+211100	1000	DCOA	-	EN	Pest control	Pest control	0	0		0	
+211100	5000	DCOA	-	EN	Pest control	Pest control	0	0		0	
+211101	1000	DCOA	-	EN	Helpdesk Services	Helpdesk Services	0	0		0	
+211101	5000	DCOA	-	EN	Helpdesk Services	Helpdesk Services	0	0		0	
+211102	1000	DCOA	-	EN	Range Services	Range Services	0	0		0	
+211102	5000	DCOA	-	EN	Range Services	Range Services	0	0		0	
+211103	1000	DCOA	-	EN	Petrol oil & mgt ser	Petrol oil & management services	0	0		0	
+211103	5000	DCOA	-	EN	Petrol oil & mgt ser	Petrol oil & management services	0	0		0	
+211104	1000	DCOA	-	EN	Municipal Services	Municipal Services	0	0		0	
+211104	5000	DCOA	-	EN	Municipal Services	Municipal Services	0	0		0	
+211105	1000	DCOA	-	EN	Airfield oper supp	Airfield operations support	0	0		0	
+211105	5000	DCOA	-	EN	Airfield oper supp	Airfield operations support	0	0		0	
+211106	1000	DCOA	-	EN	Catering - Base Mgt	Catering- Base Management	0	0		0	
+211106	5000	DCOA	-	EN	Catering - Base Mgt	Catering- Base Management	0	0		0	
+211107	1000	DCOA	-	EN	Recreation Services	Recreation Services	0	0		0	
+211107	5000	DCOA	-	EN	Recreation Services	Recreation Services	0	0		0	
+211108	1000	DCOA	-	EN	transport	transport	0	0		0	
+211108	5000	DCOA	-	EN	transport	transport	0	0		0	
+211109	1000	DCOA	-	EN	Garr supp cont (B)	Garrison support contracts	0	0		0	
+211109	5000	DCOA	-	EN	Garr supp cont (B)	Garrison support contracts	0	0		0	
+211110	1000	DCOA	-	EN	Rations	Rations	0	0		0	
+211110	5000	DCOA	-	EN	Rations	Rations	0	0		0	
+211111	1000	DCOA	-	EN	Purch in-flight rtns	Purchase of in-flight rations	0	0		0	
+211111	5000	DCOA	-	EN	Purch in-flight rtns	Purchase of in-flight rations	0	0		0	
+211112	1000	DCOA	-	EN	Rations - Other	Rations - Other	0	0		0	
+211112	5000	DCOA	-	EN	Rations - Other	Rations - Other	0	0		0	
+211113	1000	DCOA	-	EN	RationsExpOSPost	Rations expenses at overseas posts	0	0		0	
+211113	5000	DCOA	-	EN	RationsExpOSPost	Rations expenses at overseas posts	0	0		0	
+211200	1000	DCOA	-	EN	Conferences&seminars	Conferences & seminars	0	0		0	
+211200	5000	DCOA	-	EN	Conferences&seminars	Conferences & seminars	0	0		0	
+211201	1000	DCOA	-	EN	Training	Training	0	0		0	
+211201	5000	DCOA	-	EN	Training	Training	0	0		0	
+211202	1000	DCOA	-	EN	Training rel travel	Training related travel	0	0		0	
+211202	5000	DCOA	-	EN	Training rel travel	Training related travel	0	0		0	
+211203	1000	DCOA	-	EN	ADF Tng Military	ADF Training - Military	0	0		0	
+211203	5000	DCOA	-	EN	ADF Tng Military	ADF Training - Military	0	0		0	
+211204	1000	DCOA	-	EN	APS Separation Trnig	Training Related Travel	0	0		0	
+211204	5000	DCOA	-	EN	APS Separation Trnig	Training Related Travel	0	0		0	
+211205	1000	DCOA	-	EN	ADF CseCost Non FBTR	ADF DEAS Approved Course Costs- Non FBT Reportable	0	0		0	
+211205	5000	DCOA	-	EN	ADF CseCost Non FBTR	ADF DEAS Approved Course Costs- Non FBT Reportable	0	0		0	
+211206	1000	DCOA	-	EN	APS CseCost Non FBTR	APS DEAS Approved Course Costs - Non FBT Reportabl	0	0		0	
+211206	5000	DCOA	-	EN	APS CseCost Non FBTR	APS DEAS Approved Course Costs - Non FBT Reportabl	0	0		0	
+211207	1000	DCOA	-	EN	ADF CTT-FinCounsel	ADF CTT - Financial counselling	0	0		0	
+211207	5000	DCOA	-	EN	ADF CTT-FinCounsel	ADF CTT - Financial counselling	0	0		0	
+211208	1000	DCOA	-	EN	ADF Trnig - Sep	ADF training - separation	0	0		0	
+211208	5000	DCOA	-	EN	ADF Trnig - Sep	ADF training - separation	0	0		0	
+211209	1000	DCOA	-	EN	ADF Cse Cost FBTR	"ADF DEAS Apvd Cse Costs (HECS, HELP, CSP) FBT Repo"	0	0		0	
+211209	5000	DCOA	-	EN	ADF Cse Cost FBTR	"ADF DEAS Apvd Cse Costs (HECS, HELP, CSP) FBT Repo"	0	0		0	
+211210	1000	DCOA	-	EN	APS Cse Cost FBTR	"APS DEAS Apvd Cse Costs (HECS, HELP, CSP) FBT Repo"	0	0		0	
+211210	5000	DCOA	-	EN	APS Cse Cost FBTR	"APS DEAS Apvd Cse Costs (HECS, HELP, CSP) FBT Repo"	0	0		0	
+211211	1000	DCOA	-	EN	APS Training	APS Training	0	0		0	
+211211	5000	DCOA	-	EN	APS Training	APS Training	0	0		0	
+211212	1000	DCOA	-	EN	ADF Tng Non Mil	ADF Training - Non Military	0	0		0	
+211212	5000	DCOA	-	EN	ADF Tng Non Mil	ADF Training - Non Military	0	0		0	
+211213	1000	DCOA	-	EN	APS Separation Trnig	APS training - Separation related	0	0		0	
+211213	5000	DCOA	-	EN	APS Separation Trnig	APS training - Separation related	0	0		0	
+211300	1000	DCOA	-	EN	Travel	Travel	0	0		0	
+211300	5000	DCOA	-	EN	Travel	Travel	0	0		0	
+211301	1000	DCOA	-	EN	ADFStud Mov Veh Allo	ADF Student movement vehicle allowance	0	0		0	
+211301	5000	DCOA	-	EN	ADFStud Mov Veh Allo	ADF Student movement vehicle allowance	0	0		0	
+211302	1000	DCOA	-	EN	Accommodation	Business Travel - Domestic	0	0		0	
+211302	5000	DCOA	-	EN	Accommodation	Business Travel - Domestic	0	0		0	
+211303	1000	DCOA	-	EN	Overseas Accomm	Business Travel - Overseas	0	0		0	
+211303	5000	DCOA	-	EN	Overseas Accomm	Business Travel - Overseas	0	0		0	
+211304	1000	DCOA	-	EN	O/S-Travelling Allow	Travel - Overseas:Allowances	0	0		0	
+211304	5000	DCOA	-	EN	O/S-Travelling Allow	Travel - Overseas:Allowances	0	0		0	
+211305	1000	DCOA	-	EN	Domestic Exercise	Exercise Travel	0	0		0	
+211305	5000	DCOA	-	EN	Domestic Exercise	Exercise Travel	0	0		0	
+211306	1000	DCOA	-	EN	Domestic Spouse acco	Travel - Domestic: Spouse accompanied	0	0		0	
+211306	5000	DCOA	-	EN	Domestic Spouse acco	Travel - Domestic: Spouse accompanied	0	0		0	
+211307	1000	DCOA	-	EN	O/S Spouse Travel	Travel - Overseas:Spouse accompanied	0	0		0	
+211307	5000	DCOA	-	EN	O/S Spouse Travel	Travel - Overseas:Spouse accompanied	0	0		0	
+211308	1000	DCOA	-	EN	Travel Exp O/S Post	Travel - Overseas:Overseas post expenses	0	0		0	
+211308	5000	DCOA	-	EN	Travel Exp O/S Post	Travel - Overseas:Overseas post expenses	0	0		0	
+211309	1000	DCOA	-	EN	Vehicle allowance	Vehicle allowance	0	0		0	
+211309	5000	DCOA	-	EN	Vehicle allowance	Vehicle allowance	0	0		0	
+211400	1000	DCOA	-	EN	Postage & freight	Postage & freight	0	0		0	
+211400	5000	DCOA	-	EN	Postage & freight	Postage & freight	0	0		0	
+211401	1000	DCOA	-	EN	Charters & hire	Charters & hire	0	0		0	
+211401	5000	DCOA	-	EN	Charters & hire	Charters & hire	0	0		0	
+211402	1000	DCOA	-	EN	Geospatial prod &ser	"Geospatial data, imagery, products & services"	0	0		0	
+211402	5000	DCOA	-	EN	Geospatial prod &ser	"Geospatial data, imagery, products & services"	0	0		0	
+211403	1000	DCOA	-	EN	External labour hire	External labour hire	0	0		0	
+211403	5000	DCOA	-	EN	External labour hire	External labour hire	0	0		0	
+211404	1000	DCOA	-	EN	Navigational charts	Navigational charts	0	0		0	
+211404	5000	DCOA	-	EN	Navigational charts	Navigational charts	0	0		0	
+211405	1000	DCOA	-	EN	Catering	Catering	0	0		0	
+211405	5000	DCOA	-	EN	Catering	Catering	0	0		0	
+211406	1000	DCOA	-	EN	Membership fees	Membership fees	0	0		0	
+211406	5000	DCOA	-	EN	Membership fees	Membership fees	0	0		0	
+211407	1000	DCOA	-	EN	Childcare	Childcare	0	0		0	
+211407	5000	DCOA	-	EN	Childcare	Childcare	0	0		0	
+211408	1000	DCOA	-	EN	Bank charg & levies	Bank charges & levies	0	0		0	
+211408	2000	DCOA	-	EN	Bank charg & levies	Bank charges & levies	0	0		0	
+211408	3000	DCOA	-	EN	Bank charg & levies	Bank charges & levies	0	0		0	
+211408	5000	DCOA	-	EN	Bank charg & levies	Bank charges & levies	0	0		0	
+211408	5100	DCOA	-	EN	Bank charg & levies	Bank charges & levies	0	0		0	
+211409	1000	DCOA	-	EN	Rates & land tax	Rates & land tax	0	0		0	
+211409	5000	DCOA	-	EN	Rates & land tax	Rates & land tax	0	0		0	
+211410	1000	DCOA	-	EN	Customs duty	Customs duty	0	0		0	
+211410	5000	DCOA	-	EN	Customs duty	Customs duty	0	0		0	
+211411	1000	DCOA	-	EN	Employer support	Employer support	0	0		0	
+211411	5000	DCOA	-	EN	Employer support	Employer support	0	0		0	
+211412	1000	DCOA	-	EN	Fines & infringement	Fines & infringements	0	0		0	
+211412	5000	DCOA	-	EN	Fines & infringement	Fines & infringements	0	0		0	
+211413	1000	DCOA	-	EN	"Cloth,laund&dryclng"	"Clothing, laundry & dry cleaning"	0	0		0	
+211413	5000	DCOA	-	EN	"Cloth,laund&dryclng"	"Clothing, laundry & dry cleaning"	0	0		0	
+211414	1000	DCOA	-	EN	Comp payments	Compensation payments	0	0		0	
+211414	5000	DCOA	-	EN	Comp payments	Compensation payments	0	0		0	
+211416	1000	DCOA	-	EN	Support services	Support services	0	0		0	
+211416	5000	DCOA	-	EN	Support services	Support services	0	0		0	
+211417	1000	DCOA	-	EN	Pay othGovtagencies	Payments to other Govt agencies	0	0		0	
+211417	5000	DCOA	-	EN	Pay othGovtagencies	Payments to other Govt agencies	0	0		0	
+211418	1000	DCOA	-	EN	Oth aircraft exp	Other aircraft expenditure	0	0		0	
+211418	5000	DCOA	-	EN	Oth aircraft exp	Other aircraft expenditure	0	0		0	
+211419	1000	DCOA	-	EN	Facilities enhan	Facilities enhancements	0	0		0	
+211419	5000	DCOA	-	EN	Facilities enhan	Facilities enhancements	0	0		0	
+211420	1000	DCOA	-	EN	New works	New works	0	0		0	
+211420	5000	DCOA	-	EN	New works	New works	0	0		0	
+211421	1000	DCOA	-	EN	Pre/com expenses	Presentations/commemoration expenses	0	0		0	
+211421	5000	DCOA	-	EN	Pre/com expenses	Presentations/commemoration expenses	0	0		0	
+211422	1000	DCOA	-	EN	Gen ser/med exam	General service/medical examinations	0	0		0	
+211422	5000	DCOA	-	EN	Gen ser/med exam	General service/medical examinations	0	0		0	
+211423	1000	DCOA	-	EN	"Pho, vid & Int Spprt"	"Photgraphic, video and internet support"	0	0		0	
+211423	5000	DCOA	-	EN	"Pho, vid & Int Spprt"	"Photgraphic, video and internet support"	0	0		0	
+211424	1000	DCOA	-	EN	Funeral costs & Expe	Funeral costs and expenses	0	0		0	
+211424	5000	DCOA	-	EN	Funeral costs & Expe	Funeral costs and expenses	0	0		0	
+211425	1000	DCOA	-	EN	Min Off Equip R&M	Minor office Repairs & maintenance	0	0		0	
+211425	5000	DCOA	-	EN	Min Off Equip R&M	Minor office Repairs & maintenance	0	0		0	
+211426	1000	DCOA	-	EN	Gen-Off Services	General Office services	0	0		0	
+211426	5000	DCOA	-	EN	Gen-Off Services	General Office services	0	0		0	
+211427	1000	DCOA		EN	Representation allow	Representation allowance	0	0		0	
+211427	5000	DCOA		EN	Representation allow	Representation allowance	0	0		0	
+211428	1000	DCOA	-	EN	Fin advSep& red-APS	Financial advice - Separation & redundancies - APS	0	0		0	
+211428	5000	DCOA	-	EN	Fin advSep& red-APS	Financial advice - Separation & redundancies - APS	0	0		0	
+211429	1000	DCOA	-	EN	DFAT emp-LES o/seas	DFAT employee - LES o/seas	0	0		0	
+211429	5000	DCOA	-	EN	DFAT emp-LES o/seas	DFAT employee - LES o/seas	0	0		0	
+211430	1000	DCOA	-	EN	Prod multi-medCD-ROM	Production of multi-media and CD-ROM	0	0		0	
+211430	5000	DCOA	-	EN	Prod multi-medCD-ROM	Production of multi-media and CD-ROM	0	0		0	
+211431	1000	DCOA	-	EN	Gov common services	Commonwealth government common services	0	0		0	
+211431	5000	DCOA	-	EN	Gov common services	Commonwealth government common services	0	0		0	
+211432	1000	DCOA	-	EN	Legal fees	Legal fees	0	0		0	
+211432	5000	DCOA	-	EN	Legal fees	Legal fees	0	0		0	
+211433	1000	DCOA	-	EN	Insurance-General	Insurance-General	0	0		0	
+211433	5000	DCOA	-	EN	Insurance-General	Insurance-General	0	0		0	
+211435	2000	DCOA	-	EN	RendOfServExtParties	Rendering of services  -  External parties	0	0		0	
+211436	1000	DCOA	-	EN	Advert & public rel	Advertising & public relations	0	0		0	
+211436	5000	DCOA	-	EN	Advert & public rel	Advertising & public relations	0	0		0	
+211437	1000	DCOA	-	EN	Animal mgt fees&mat	Animal management fees & materials	0	0		0	
+211437	5000	DCOA	-	EN	Animal mgt fees&mat	Animal management fees & materials	0	0		0	
+211440	1000	DCOA	-	EN	CASG ProjOth gov exp	CASG Projects - Other government expenses	0	0		0	
+211441	1000	DCOA	-	EN	Fleet Support	Fleet Support	0	0		0	
+211441	5000	DCOA	-	EN	Fleet Support	Fleet Support	0	0		0	
+211442	1000	DCOA	-	EN	AdvtCost-ADF recruit	Advertising costs -ADF recruiting	0	0		0	
+211442	5000	DCOA	-	EN	AdvtCost-ADF recruit	Advertising costs -ADF recruiting	0	0		0	
+211443	1000	DCOA	-	EN	Sponsorship	Sponsorship	0	0		0	
+211443	5000	DCOA	-	EN	Sponsorship	Sponsorship	0	0		0	
+211444	1000	DCOA	-	EN	Security Fees	Security Fees	0	0		0	
+211444	5000	DCOA	-	EN	Security Fees	Security Fees	0	0		0	
+211445	1000	DCOA	-	EN	Security clear -vett	Security clearance - vetting	0	0		0	
+211445	5000	DCOA	-	EN	Security clear -vett	Security clearance - vetting	0	0		0	
+211446	1000	DCOA	-	EN	Maint Security Syste	Maintenance of security systems	0	0		0	
+211446	5000	DCOA	-	EN	Maint Security Syste	Maintenance of security systems	0	0		0	
+211447	1000	DCOA	-	EN	Purchases - EO	Purchases - EO	0	0		0	
+211447	5000	DCOA	-	EN	Purchases - EO	Purchases - EO	0	0		0	
+211448	1000	DCOA	-	EN	Prod costs - EO	Production costs - EO	0	0		0	
+211448	5000	DCOA	-	EN	Prod costs - EO	Production costs - EO	0	0		0	
+211449	1000	DCOA	-	EN	CASG milit workforce	CASG military workforce	0	0		0	
+211449	5000	DCOA	-	EN	CASG milit workforce	CASG military workforce	0	0		0	
+211450	1000	DCOA	-	EN	Official Hospitality	Official Hospitality	0	0		0	
+211450	5000	DCOA	-	EN	Official Hospitality	Official Hospitality	0	0		0	
+211451	1000	DCOA	-	EN	Employee Family Supp	Employee Family support  FBT	0	0		0	
+211451	5000	DCOA	-	EN	Employee Family Supp	Employee Family support  FBT	0	0		0	
+211452	1000	DCOA	-	EN	Advtng Costs - Non A	Advertisement Costs ? Non ADF Recruiting	0	0		0	
+211452	5000	DCOA	-	EN	Advtng Costs - Non A	Advertisement Costs ? Non ADF Recruiting	0	0		0	
+211500	1000	DCOA	-	EN	Mgt & tech adv	Management & technical advice (consultants)	0	0		0	
+211500	5000	DCOA	-	EN	Mgt & tech adv	Management & technical advice (consultants)	0	0		0	
+211501	1000	DCOA	-	EN	Tech & Eng Support	Technical & Engineering Support	0	0		0	
+211501	5000	DCOA	-	EN	Tech & Eng Support	Technical & Engineering Support	0	0		0	
+211502	1000	DCOA	-	EN	Consultancies	Consultancies	0	0		0	
+211502	5000	DCOA	-	EN	Consultancies	Consultancies	0	0		0	
+211503	1000	DCOA	-	EN	Contractor Services	Contractor Services	0	0		0	
+211503	5000	DCOA	-	EN	Contractor Services	Contractor Services	0	0		0	
+211504	1000	DCOA	-	EN	Public relations	Public relations	0	0		0	
+211504	5000	DCOA	-	EN	Public relations	Public relations	0	0		0	
+211505	1000	DCOA	-	EN	External audit fees	External audit fees	0	0		0	
+211505	5000	DCOA	-	EN	External audit fees	External audit fees	0	0		0	
+211506	1000	DCOA	-	EN	Acct & Fin Supp	Accounting & Financial Support	0	0		0	
+211506	5000	DCOA	-	EN	Acct & Fin Supp	Accounting & Financial Support	0	0		0	
+211600	1000	DCOA	-	EN	Quarantine & insp	Quarantine & inspection	0	0		0	
+211600	5000	DCOA	-	EN	Quarantine & insp	Quarantine & inspection	0	0		0	
+211601	1000	DCOA	-	EN	Int strat lift - Sea	International strategic lift - Sea	0	0		0	
+211601	5000	DCOA	-	EN	Int strat lift - Sea	International strategic lift - Sea	0	0		0	
+211602	1000	DCOA	-	EN	Travel-RelocRemoval	Travel- Relocation and Removals	0	0		0	
+211602	5000	DCOA	-	EN	Travel-RelocRemoval	Travel- Relocation and Removals	0	0		0	
+211603	1000	DCOA	-	EN	IntStratgicLift-Land	International strategic lift - Land	0	0		0	
+211603	5000	DCOA	-	EN	IntStratgicLift-Land	International strategic lift - Land	0	0		0	
+211604	1000	DCOA	-	EN	Dom strg lift - Air	Domestic strategic lift - Air	0	0		0	
+211604	5000	DCOA	-	EN	Dom strg lift - Air	Domestic strategic lift - Air	0	0		0	
+211605	1000	DCOA	-	EN	Dom strg lift -Sea	Domestic strategic lift - Sea	0	0		0	
+211605	5000	DCOA	-	EN	Dom strg lift -Sea	Domestic strategic lift - Sea	0	0		0	
+211606	1000	DCOA	-	EN	Dom strg lift-Land	Domestic strategic lift - Land	0	0		0	
+211606	5000	DCOA	-	EN	Dom strg lift-Land	Domestic strategic lift - Land	0	0		0	
+211607	1000	DCOA	-	EN	Freight(non removal)	Freight (non removals)	0	0		0	
+211607	5000	DCOA	-	EN	Freight(non removal)	Freight (non removals)	0	0		0	
+211608	1000	DCOA	-	EN	RemovalCsts-StrgChrg	Removal costs - Storage charges	0	0		0	
+211608	5000	DCOA	-	EN	RemovalCsts-StrgChrg	Removal costs - Storage charges	0	0		0	
+211609	1000	DCOA	-	EN	Trav - Removal:Disch	Travel - Removal:Discharges	0	0		0	
+211609	5000	DCOA	-	EN	Trav - Removal:Disch	Travel - Removal:Discharges	0	0		0	
+211610	1000	DCOA	-	EN	Removal costs - Def	Removal costs - Defence	0	0		0	
+211610	5000	DCOA	-	EN	Removal costs - Def	Removal costs - Defence	0	0		0	
+211611	1000	DCOA	-	EN	Int strat lift - Air	International strategic lift - Air	0	0		0	
+211611	5000	DCOA	-	EN	Int strat lift - Air	International strategic lift - Air	0	0		0	
+211612	1000	DCOA	-	EN	Childcare reimburse	Childcare reimbursement	0	0		0	
+211612	5000	DCOA	-	EN	Childcare reimburse	Childcare reimbursement	0	0		0	
+211616	1000	DCOA	-	EN	Allow-LOS PrvVh/frn	Allowance - Loss on sale private motor veh/furn	0	0		0	
+211616	5000	DCOA	-	EN	Allow-LOS PrvVh/frn	Allowance - Loss on sale private motor veh/furn	0	0		0	
+211617	1000	DCOA	-	EN	Relocations agreemnt	Relocations agreement	0	0		0	
+211617	5000	DCOA	-	EN	Relocations agreemnt	Relocations agreement	0	0		0	
+211618	1000	DCOA	-	EN	Lateral recruit csts	Lateral recruit costs	0	0		0	
+211618	5000	DCOA	-	EN	Lateral recruit csts	Lateral recruit costs	0	0		0	
+211800	1000	DCOA	-	EN	Patent fees	Patent fees	0	0		0	
+211800	5000	DCOA	-	EN	Patent fees	Patent fees	0	0		0	
+211801	1000	DCOA	-	EN	Res and dev (R&D)	Research and development (R&D)	0	0		0	
+211801	5000	DCOA	-	EN	Res and dev (R&D)	Research and development (R&D)	0	0		0	
+211802	1000	DCOA	-	EN	Research agreements	Research agreements	0	0		0	
+211802	5000	DCOA	-	EN	Research agreements	Research agreements	0	0		0	
+211900	1000	DCOA	-	EN	Voice & data usage	Voice & data usage	0	0		0	
+211900	5000	DCOA	-	EN	Voice & data usage	Voice & data usage	0	0		0	
+211901	1000	DCOA	-	EN	Satellite usage	Satellite usage	0	0		0	
+211901	5000	DCOA	-	EN	Satellite usage	Satellite usage	0	0		0	
+211902	1000	DCOA	-	EN	Spect fees & charges	Spectrum fees & charges	0	0		0	
+211902	5000	DCOA	-	EN	Spect fees & charges	Spectrum fees & charges	0	0		0	
+211903	1000	DCOA	-	EN	ICT Adm Bundl Contra	ICT Administration Charges in Bundled Contracts	0	0		0	
+211903	5000	DCOA	-	EN	ICT Adm Bundl Contra	ICT Administration Charges in Bundled Contracts	0	0		0	
+211904	1000	DCOA	-	EN	ICT Mgn Adv Service	ICT Management and Advisory Services	0	0		0	
+211904	5000	DCOA	-	EN	ICT Mgn Adv Service	ICT Management and Advisory Services	0	0		0	
+211905	1000	DCOA	-	EN	ICT Net Hdwa Pur Sup	ICT Network Hardware - Purchase and Support	0	0		0	
+211905	5000	DCOA	-	EN	ICT Net Hdwa Pur Sup	ICT Network Hardware - Purchase and Support	0	0		0	
+211906	1000	DCOA	-	EN	ICT UseHdwa Pur Supp	ICT User Hardware - Purchase and Support	0	0		0	
+211906	5000	DCOA	-	EN	ICT UseHdwa Pur Supp	ICT User Hardware - Purchase and Support	0	0		0	
+211907	1000	DCOA	-	EN	ICT user devce	ICT -Harware maintenance	0	0		0	
+211908	1000	DCOA	-	EN	Software services	Software services	0	0		0	
+211908	5000	DCOA	-	EN	Software services	Software services	0	0		0	
+211909	1000	DCOA	-	EN	ICT sys hwre Pur Sup	ICT Systems Hardware - Purchase and Support	0	0		0	
+211909	5000	DCOA	-	EN	ICT sys hwre Pur Sup	ICT Systems Hardware - Purchase and Support	0	0		0	
+211910	1000	DCOA	-	EN	ICT consumables	ICT consumables	0	0		0	
+211910	5000	DCOA	-	EN	ICT consumables	ICT consumables	0	0		0	
+212000	1000	DCOA	-	EN	Sanit& toxic waste	Sanitation & toxic waste	0	0		0	
+212000	5000	DCOA	-	EN	Sanit& toxic waste	Sanitation & toxic waste	0	0		0	
+212001	1000	DCOA	-	EN	Housekeeping exp	Housekeeping exp	0	0		0	
+212001	5000	DCOA	-	EN	Housekeeping exp	Housekeeping exp	0	0		0	
+212002	1000	DCOA	-	EN	Cleaning charges	Cleaning charges	0	0		0	
+212002	5000	DCOA	-	EN	Cleaning charges	Cleaning charges	0	0		0	
+212200	1000	DCOA	-	EN	Estate Prop Maint	Defence estate property maintenance	0	0		0	
+212200	5000	DCOA	-	EN	Estate Prop Maint	Defence estate property maintenance	0	0		0	
+212201	1000	DCOA	-	EN	Estate Upkeep	Estate Upkeep	0	0		0	
+212201	5000	DCOA	-	EN	Estate Upkeep	Estate Upkeep	0	0		0	
+212202	1000	DCOA	-	EN	Work planning fees	Work planning fees	0	0		0	
+212202	5000	DCOA	-	EN	Work planning fees	Work planning fees	0	0		0	
+212203	1000	DCOA	-	EN	Annual fees/levies	Annual fees/levies	0	0		0	
+212203	5000	DCOA	-	EN	Annual fees/levies	Annual fees/levies	0	0		0	
+212204	1000	DCOA	-	EN	Grounds Maintenance	Grounds Maintenance & Land Management	0	0		0	
+212204	5000	DCOA	-	EN	Grounds Maintenance	Grounds Maintenance & Land Management	0	0		0	
+212205	1000	DCOA	-	EN	Defence Archives	Defence Archives	0	0		0	
+212205	5000	DCOA	-	EN	Defence Archives	Defence Archives	0	0		0	
+212206	1000	DCOA	-	EN	Env Compliance	Environmental Compliance	0	0		0	
+212206	5000	DCOA	-	EN	Env Compliance	Environmental Compliance	0	0		0	
+212207	1000	DCOA	-	EN	WHS Assessment	WHS Assessment	0	0		0	
+212207	5000	DCOA	-	EN	WHS Assessment	WHS Assessment	0	0		0	
+212208	1000	DCOA	-	EN	Estate Projects	Estate Projects	0	0		0	
+212208	5000	DCOA	-	EN	Estate Projects	Estate Projects	0	0		0	
+212209	1000	DCOA	-	EN	Asbestos	Asbestos	0	0		0	
+212209	5000	DCOA	-	EN	Asbestos	Asbestos	0	0		0	
+213000	1000	DCOA	-	EN	Operating leases	Operating leases	0	0		0	
+213000	2000	DCOA	-	EN	Operating leases	Operating leases	0	0		0	
+213000	5000	DCOA	-	EN	Operating leases	Operating leases	0	0		0	
+213001	1000	DCOA	-	EN	Leases of LVA	Leases Of Low Value Assets	0	0		0	
+213001	5000	DCOA	-	EN	Leases of LVA	Leases Of Low Value Assets	0	0		0	
+213002	1000	DCOA	-	EN	Variable Lease Payts	Variable lease payments	0	0		0	
+213002	5000	DCOA	-	EN	Variable Lease Payts	Variable lease payments	0	0		0	
+213003	1000	DCOA	-	EN	Operating Lease Rev	Operating Lease Reversal AASB 16	0	0		0	
+213100	1000	DCOA	-	EN	Insu-Workers comp	Insurance-Workers compensation	0	0		0	
+213100	5000	DCOA	-	EN	Insu-Workers comp	Insurance-Workers compensation	0	0		0	
+221000	2000	DCOA	-	EN	Home own scheme	Admin Defence home ownership scheme/assist	0	0		0	
+240000	1000	DCOA	-	EN	Finance charges	Finance charges	0	0		0	
+240000	5000	DCOA	-	EN	Finance charges	Finance charges	0	0		0	
+241001	1000	DCOA	-	EN	Int  on Right of Use	Interest on Right of Use	0	0		0	
+241001	5000	DCOA	-	EN	Int  on Right of Use	Interest on Right of Use	0	0		0	
+242000	1000	DCOA		EN	Prov unwind exp-land	Provision unwinding expense - land	0	0		0	
+242000	5000	DCOA		EN	Prov unwind exp-land	Provision unwinding expense - land	0	0		0	
+242001	1000	DCOA		EN	ProUdExp-Build LHI	Provision unwinding expense - buildings LHI	0	0		0	
+242001	5000	DCOA		EN	ProUdExp-Build LHI	Provision unwinding expense - buildings LHI	0	0		0	
+242002	1000	DCOA		EN	Prov unwinding -SME	Provision unwinding expense - SME	0	0		0	
+242002	5000	DCOA		EN	Prov unwinding -SME	Provision unwinding expense - SME	0	0		0	
+250000	1000	DCOA		EN	WDI-Build non LHI	Write down & impairment - buildings non LHI	0	0		0	
+250000	5000	DCOA		EN	WDI-Build non LHI	Write down & impairment - buildings non LHI	0	0		0	
+250002	1000	DCOA		EN	Imp-Buildings ROU	Impairment expense - Buildings ROU	0	0		0	
+250002	5000	DCOA		EN	Imp-Buildings ROU	Impairment expense - Buildings ROU	0	0		0	
+250202	1000	DCOA		EN	SME ROU Impairment	Impairment - SME ROU	0	0		0	
+250202	5000	DCOA		EN	SME ROU Impairment	Impairment - SME ROU	0	0		0	
+250301	1000	DCOA		EN	Write down & impairm	Write down & impairment - infrastructure UFL	0	0		0	
+250301	5000	DCOA		EN	Write down & impairm	Write down & impairment - infrastructure UFL	0	0		0	
+250401	1000	DCOA		EN	Impairmnt-OP&E ROU	Impairment - OP&E ROU	0	0		0	
+250401	5000	DCOA		EN	Impairmnt-OP&E ROU	Impairment - OP&E ROU	0	0		0	
+251001	1000	DCOA	+	EN	Doubtful debts exp	Doubtful debts expense	0	0		0	
+251001	5000	DCOA	+	EN	Doubtful debts exp	Doubtful debts expense	0	0		0	
+252000	1000	DCOA	-	EN	WrDoImpairment -GSI	Write down & impairment - GSI	0	0		0	
+252000	5000	DCOA	-	EN	WrDoImpairment -GSI	Write down & impairment - GSI	0	0		0	
+252001	1000	DCOA		EN	Loss Inv writeoff	Losses - Inventory write off	0	0		0	
+252001	5000	DCOA		EN	Loss Inv writeoff	Losses - Inventory write off	0	0		0	
+260000	1000	DCOA		EN	Forex loss -a/c	Foreign exchange loss	0	0		0	
+260000	2000	DCOA	-	EN	Forex loss -a/c	Foreign exchange loss	0	0		0	
+260000	3000	DCOA		EN	Forex loss -a/c	Foreign exchange loss	0	0		0	
+260000	5000	DCOA		EN	Forex loss -a/c	Foreign exchange loss	0	0		0	
+260000	5100	DCOA		EN	Forex loss -a/c	Foreign exchange loss	0	0		0	
+281000	1000	DCOA	-	EN	TactPaymentSchm-123H	Tactical payments scheme - Section 123H	0	0		0	
+281000	5000	DCOA	-	EN	TactPaymentSchm-123H	Tactical payments scheme - Section 123H	0	0		0	
+283100	1000	DCOA	-	EN	Decomm exp - SME	Decommissioning expense - SME	0	0		0	
+283100	5000	DCOA	-	EN	Decomm exp - SME	Decommissioning expense - SME	0	0		0	
+284001	1000	DCOA		EN	Miscellns other exp	Miscellaneous other expenses	0	0		0	
+284002	3000	DCOA	-	EN	Expenses - other	Expenses - other	0	0		0	
+284002	5100	DCOA	-	EN	Expenses - other	Expenses - other	0	0		0	
+284004	1000	DCOA	-	EN	Operating over prog	Operating Over Programming	0	0		0	
+284997	1000	DCOA	*	EN	BORIS Bud blked  GL	BORIS budget on blocked GL - P&L	0	0		0	
+284997	5000	DCOA	*	EN	BORIS Bud blked  GL	BORIS budget on blocked GL - P&L	0	0		0	
+284998	1000	DCOA	*	EN	BORIS Comit  blk GL	BORIS commitment on Blocked GL	0	0		0	
+284998	5000	DCOA	*	EN	BORIS Comit  blk GL	BORIS commitment on Blocked GL	0	0		0	
+284999	1000	DCOA	*	EN	BORIS PLTD blked  GL	Project life to date Blocked ROMAN A/C	0	0		0	
+284999	3000	DCOA	*	EN	BORIS PLTD blked  GL	Project life to date Blocked ROMAN A/C	0	0		0	
+284999	5000	DCOA	*	EN	BORIS PLTD blked  GL	Project life to date Blocked ROMAN A/C	0	0		0	
+300008	1000	DCOA	*	EN	Intercomp-Deprtmntl	Intercompany account - departmental	0	0		0	
+300008	2000	DCOA	*	EN	Intercomp-Deprtmntl	Intercompany account - departmental	0	0		0	
+300008	3000	DCOA	*	EN	Intercomp-Deprtmntl	Intercompany account - departmental	0	0		0	
+300008	5000	DCOA	*	EN	Intercomp-Deprtmntl	Intercompany account - departmental	0	0		0	
+300014	1000	DCOA		EN	Other Cred-curr	Other creditors - Current	0	0		0	
+300014	5000	DCOA		EN	Other Cred-curr	Other creditors - Current	0	0		0	
+300020	1000	DCOA		EN	Inv pend'g Non goods	Invoices pending - Non goods	0	0		0	
+300020	5000	DCOA		EN	Inv pend'g Non goods	Invoices pending - Non goods	0	0		0	
+300023	3000	DCOA	*	EN	TrustCmwthGovCrdCntl	Trust Commonwealth Govt creditors control	0	0		0	
+300023	5100	DCOA	*	EN	TrustCmwthGovCrdCntl	Trust Commonwealth Govt creditors control	0	0		0	
+300024	3000	DCOA	*	EN	TrustDmsSuppCntlAcct	Trust Domestic suppliers control account	0	0		0	
+300024	5100	DCOA	*	EN	TrustDmsSuppCntlAcct	Trust Domestic suppliers control account	0	0		0	
+300026	3000	DCOA	*	EN	TrustOvsSuppCntlAcct	Trust Overseas suppliers control account	0	0		0	
+300026	5100	DCOA	*	EN	TrustOvsSuppCntlAcct	Trust Overseas suppliers control account	0	0		0	
+302003	1000	DCOA		EN	FBT control	FBT control	0	0		0	
+302003	2000	DCOA		EN	FBT control	FBT control	0	0		0	
+302003	5000	DCOA		EN	FBT control	FBT control	0	0		0	
+302311	1000	DCOA		EN	PAYG WithHldTaxCntrl	PAYG withholding tax control account	0	0		0	
+302311	2000	DCOA		EN	PAYG WithHldTaxCntrl	PAYG withholding tax control account	0	0		0	
+302311	5000	DCOA		EN	PAYG WithHldTaxCntrl	PAYG withholding tax control account	0	0		0	
+310000	1000	DCOA	-	EN	Finance lease-curr	Finance lease current	0	0		0	
+310000	5000	DCOA	-	EN	Finance lease-curr	Finance lease current	0	0		0	
+310001	1000	DCOA	-	EN	Finance lease-noncur	Finance lease non current	0	0		0	
+310001	5000	DCOA	-	EN	Finance lease-noncur	Finance lease non current	0	0		0	
+320802	1000	DCOA		EN	ADF CompBonusCntrl	ADF Completion bonus control	0	0		0	
+320802	5000	DCOA		EN	ADF CompBonusCntrl	ADF Completion bonus control	0	0		0	
+410097	1000	DCOA	*	EN	"CFIN ""Open bal conv"	CFIN ' Opening Balance conversion' non open item	0	0		0	
+410097	2000	DCOA	*	EN	"CFIN ""Open bal conv"	CFIN ' Opening Balance conversion' non open item	0	0		0	
+410097	3000	DCOA	*	EN	"CFIN ""Open bal conv"	CFIN ' Opening Balance conversion' non open item	0	0		0	
+410099	1000	DCOA	*	EN	Do not Use CFIN	Do not Use CFIN open items clearing Conversion	0	0		0	
+410099	2000	DCOA	*	EN	Do not Use CFIN	Do not Use CFIN open items clearing Conversion	0	0		0	
+410099	3000	DCOA	*	EN	Do not Use CFIN	Do not Use CFIN open items clearing Conversion	0	0		0	
+410099	5000	DCOA	*	EN	Do not Use CFIN	Do not Use CFIN open items clearing Conversion	0	0		0	
+500908	3000	DCOA		EN	Trust Cash transfers	Trust Cash transfers	0	0		0	
+500908	5100	DCOA		EN	Trust Cash transfers	Trust Cash transfers	0	0		0	
+501011	2000	DCOA	*	EN	MSBS RetentBnftsRec	MSBS retention benefits receivable	0	0		0	
+501012	3000	DCOA	*	EN	TrustCmnwhGovTrdDeb	Trust Commonwealth govt trade debtors	0	0		0	
+501012	5100	DCOA	*	EN	TrustCmnwhGovTrdDeb	Trust Commonwealth govt trade debtors	0	0		0	
+501013	3000	DCOA	*	EN	TrustOvrseasTradeDeb	Trust Overseas trade debtors	0	0		0	
+501013	5100	DCOA	*	EN	TrustOvrseasTradeDeb	Trust Overseas trade debtors	0	0		0	
+501014	2000	DCOA		EN	TrustWritdwnOfAssets	Trust Writedown of assets	0	0		0	
+501015	3000	DCOA	*	EN	TrustOthTradeDebtors	Trust Other trade debtors	0	0		0	
+501015	5100	DCOA	*	EN	TrustOthTradeDebtors	Trust Other trade debtors	0	0		0	
+501016	2000	DCOA		EN	RecGds&Serv-Not O/D	Receivables goods and services- Not O/D	0	0		0	
+501208	2000	DCOA		EN	Records DHA STEP rec	Records DHA STEP receivable	0	0		0	
+501210	2000	DCOA		EN	Loan recov - DHA	Loan receivable - DHA	0	0		0	
+501300	1000	DCOA	>	EN	GST from customers	GST from customers	0	0		0	
+501300	2000	DCOA	>	EN	GST from customers	GST from customers	0	0		0	
+501300	3000	DCOA	>	EN	GST from customers	GST from customers	0	0		0	
+501300	5000	DCOA	>	EN	GST from customers	GST from customers	0	0		0	
+501300	5100	DCOA	>	EN	GST from customers	GST from customers	0	0		0	
+501500	2000	DCOA		EN	Dividend receivbles	Dividend receivbles	0	0		0	
+514108	2000	DCOA		EN	AdminPrepayRetBen	Admin Prepayments retention benefits	0	0		0	

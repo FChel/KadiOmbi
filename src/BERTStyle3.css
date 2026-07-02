@@ -1,0 +1,159 @@
+BODY
+{
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #f8f8f8
+}
+INPUT
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-SIZE: 10pt;
+    TEXT-TRANSFORM: none;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: silver 1px;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #f5f5f5;
+    TEXT-ALIGN: center
+}
+TD
+{
+    BORDER-RIGHT: 1pt;
+    BORDER-TOP: 1pt;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: 1pt;
+    BORDER-BOTTOM: 1pt;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #f5f5f5;
+    TEXT-ALIGN: Left;
+    PADDING: 1pt	
+}
+SELECT
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+     BACKGROUND-COLOR: #f5f5f5
+}
+H4
+{
+    FONT-SIZE: xx-small;
+    FONT-FAMILY: Arial
+}
+TH
+{
+    BORDER-RIGHT: 1pt;
+    BORDER-TOP: 1pt;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: 1pt;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: 1pt;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #8080ff
+}
+A
+{
+    BORDER-RIGHT: 8pt;
+    BORDER-TOP: 8pt;
+    FONT-WEIGHT: lighter;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: 8pt;
+    COLOR: blue;
+    BORDER-BOTTOM: 8pt;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+TABLE
+{
+    BORDER-RIGHT: black 1pt;
+    BORDER-TOP: black 1pt;
+    BORDER-LEFT: black 1pt;
+    BORDER-BOTTOM: black 1pt;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #0000e6
+}
+HR
+{
+    BORDER-RIGHT: #595959 1pt solid;
+    BORDER-TOP: #595959 0pt solid;
+    BORDER-LEFT: #595959 1pt solid;
+    BORDER-BOTTOM: #595959 0pt solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 1pt;
+    BACKGROUND-COLOR: #595959
+}
+INPUT BUTTON
+{
+    BACKGROUND-COLOR: red
+}
+TEXTAREA
+{
+    BORDER-RIGHT: 1pt;
+    BORDER-TOP: 1pt;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: 1pt;
+    BORDER-BOTTOM: 1pt;
+    FONT-FAMILY: Arial
+}
+TFOOT
+{
+    FONT-SIZE: x-small;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: lightgrey
+}
+TF
+{
+    FONT-SIZE: x-small;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: lightgrey
+}
+H3
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: 1px;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: 1px;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial
+}
+IMG
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: 1px;
+    BORDER-LEFT: 1px;
+    BORDER-BOTTOM: 1px
+}
+TABLE.CallCentre
+{
+    BORDER-RIGHT: white;
+    BORDER-TOP: white;
+    BORDER-LEFT: white;
+    BORDER-BOTTOM: white
+}
+TD.CallCentre
+{
+    BACKGROUND-COLOR: bisque
+}
+
+TH.CallCentre
+{
+    BORDER-RIGHT: 1pt;
+    BORDER-TOP: 1pt;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: 1pt;
+    COLOR: #000000;
+    BORDER-BOTTOM: 1pt;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #e4e4e4
+}
+A:hover
+{
+    COLOR: red;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: underline
+}
+ 
